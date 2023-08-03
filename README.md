@@ -39,7 +39,7 @@ return {
 
 ## How to use
 
-Just hit `<leader>d` repeatedly until you come across a date you like.
+Just hit `<C-q>` repeatedly until you come across a date you like.
 
 ## Configuration
 
