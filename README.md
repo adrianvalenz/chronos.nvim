@@ -66,5 +66,3 @@ current day on my calendar was a bit of a deterrent and broke my workflow.
 
 They say developers are lazy so they automate things right? Well this is the solution to my own 
 problem and I hope it helps others as well. I found it really nice to use when creating changelogs too!
-
-
