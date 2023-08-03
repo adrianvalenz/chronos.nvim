@@ -3,6 +3,7 @@
 
 ⌛️ Cycle through date formats with ease ⏳
 
+https://github.com/adrianvalenz/chronos.nvim/assets/4756285/9c5cd9d9-6cd6-45e4-ba3a-1d78e8c943f8
 
 ## Features
 
