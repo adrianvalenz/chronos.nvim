@@ -40,18 +40,17 @@ return {
 
 ## How to use
 
-Just hit `<C-q>` repeatedly (while in insert mode) until you come across a date you like.
+Just hit `<C-t>` repeatedly (while in insert mode) until you come across a date you like.
 
 ## Configuration
 
-No real configuration. Right now the function just a keymap that calls the function.
-Can be overridden pretty easily.
+No real configuration. A keymap that calls the function to cycle through the time.
 
-Place something like this in your `keymaps.lua` or where ever you keep your mappings:
+To override, place something like this in your `keymaps.lua` or where ever you keep your mappings:
 
 ```
-# To override just pass in the keymap of your choice. Like if it is: <C-t>
-vim.keymap.set("i", "<C-t>", "<Cmd>lua cycle_date_format()<CR>", { noremap = true })
+# This changed the keymap to <C-o> and enables it in normal mode
+vim.keymap.set("n", "<C-o>", "<Cmd>lua cycle_date_format()<CR>", { noremap = true })
 ```
 
 ## Why this plugin?
