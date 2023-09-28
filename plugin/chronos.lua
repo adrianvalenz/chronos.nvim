@@ -1,9 +1,10 @@
-print("Chronos loaded in due time")
+print("Chronos loaded in just in time")
 
 local date_formats = {
   "%Y-%m-%d",
   "%Y/%m/%d",
-  "%d/%m/%Y",
+  "%m-%d-%Y",
+  "%m/%d/%Y",
 }
 
 local current_format_index = 1
@@ -27,6 +28,7 @@ function cycle_date_format()
 end
 
 function reset_feature()
+  current_format_index = 1
   last_inserted_text = ""
 end
 
