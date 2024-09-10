@@ -1,5 +1,3 @@
-print("Chronos loaded in just in time")
-
 local date_formats = {
   "%Y-%m-%d",
   "%Y/%m/%d",
