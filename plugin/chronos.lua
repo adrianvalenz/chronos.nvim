@@ -30,6 +30,6 @@ function reset_feature()
   last_inserted_text = ""
 end
 
-vim.keymap.set("i", "<C-t>", "<Cmd>lua cycle_date_format()<CR>", { noremap = true })
+vim.keymap.set("n", "<C-t>", "<Cmd>lua cycle_date_format()<CR>", { noremap = true })
 vim.cmd("autocmd InsertCharPre * lua reset_feature()")
 
